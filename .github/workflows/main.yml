@@ -16,4 +16,4 @@ jobs:
         password: ${{ secrets.WP_PASSWORD }}
         protocol: ftps        
         server-dir: /site/wwwroot/wp-content/plugins/wp-hello-world/
-        dry-run: true
+        # dry-run: true
