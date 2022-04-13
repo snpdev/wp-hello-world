@@ -14,7 +14,6 @@ jobs:
         server: waws-prod-dm1-181.ftp.azurewebsites.windows.net
         username: ${{ secrets.WP_USER }}
         password: ${{ secrets.WP_PASSWORD }}
-        protocol: ftps
-        port: 22
+        protocol: ftps        
         server-dir: /site/wwwroot/wp-content/plugins/wp-hello-world/
         dry-run: true
